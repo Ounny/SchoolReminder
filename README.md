@@ -1,5 +1,6 @@
-School Payment Reminder System
-Introduction
+**School Payment Reminder System**
+
+*Introduction
 The School Payment Reminder System simplifies payment management for university administrators. It maintains student records, tracks payment information (invoices), and generates automated reminders to notify students about pending fees. This project embraces key Object-Oriented Programming (OOP) concepts to provide a robust and adaptable structure.
 
 Object-Oriented Programming Concepts
