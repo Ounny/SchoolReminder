@@ -3,9 +3,26 @@
 *Introduction
 The School Payment Reminder System simplifies payment management for university administrators. It maintains student records, tracks payment information (invoices), and generates automated reminders to notify students about pending fees. This project embraces key Object-Oriented Programming (OOP) concepts to provide a robust and adaptable structure.
 
+* Class and object
+  -Register : For user register when don't have account in to the system
+  -Login : For user logint to use the system
+  -User : identify the user who are student or admin
+  -Student : the user that is student that can access specific method use as a student
+  -Admin : the user that is admin that can access specific method use as a admin
+  -Invoice : for know the detail information of payment and also can access the payment history
+  -Panel : for create the fram for admin to login
+  -Test : for run the out of the whole system
+* Process of the system
+  + Login/ register: user have to register or login as the type of user to use the systerm.
+  + Student: As a student can veiw the notification of systerm, veiw the invoice that is the information of their payment and also can view their payment history.
+  + Admin : As an admin can view all invoice of student, also admin can regiter the new invoice of student and they can update the information too.
 Object-Oriented Programming Concepts
 1. Inheritance
 The User class serves as the Super class for Student and Admin classes, allowing them to inherit common features such as username and password.
+2. Abstraction
+In user class we use abtract classs and abtract metthod call  getUserType.
+Abstract methods like getUserType() provide a blueprint for subclasses, ensuring a standardized structure across different user types.The purpose is to let subclasses specify the type of user they represen
+
 
 2. Encapsulation
 2.1 Public Access Modifier:
