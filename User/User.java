@@ -2,7 +2,7 @@ package User;
 
 import java.util.Scanner;
 
-public abstract class User {
+abstract class User {
     public String username;
     public String password;
 
